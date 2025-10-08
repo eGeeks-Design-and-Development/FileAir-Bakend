@@ -75,7 +75,7 @@ async function bootstrap() {
   }
 
   await app.listen(
-    parseInt(process.env.BACKEND_PORT || process.env.PORT || "8080"),
+    parseInt(process.env.BACKEND_PORT || process.env.PORT || "3005"),
   );
 
   const logger = new Logger("UnhandledAsyncError");
